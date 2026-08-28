@@ -1,0 +1,194 @@
+[
+    {
+        "id": "seat",
+        "icon": "fa-chair",
+        "name": "座垫",
+        "brands": [
+            {
+                "id": "honda",
+                "name": "HONDA",
+                "models": ["pcx160", "adv150", "adv350", "forza350", "click", "cg125"]
+            },
+            {
+                "id": "yamaha",
+                "name": "YAMAHA",
+                "models": ["nmax155", "xmax300", "aerox", "y15", "pg1"]
+            },
+            {
+                "id": "sym",
+                "name": "SYM",
+                "models": ["husky150"]
+            },
+            {
+                "id": "zontes",
+                "name": "Zontes",
+                "models": ["150x"]
+            },
+            {
+                "id": "haojue",
+                "name": "Haojue",
+                "models": ["uhr"]
+            }
+        ]
+    },
+    {
+        "id": "backrest",
+        "icon": "fa-chair",
+        "name": "靠背",
+        "brands": [
+            {
+                "id": "honda",
+                "name": "HONDA",
+                "models": ["pcx160", "adv150", "adv350", "forza350", "click", "cg125"]
+            },
+            {
+                "id": "yamaha",
+                "name": "YAMAHA",
+                "models": ["nmax155", "xmax300", "aerox", "y15", "pg1"]
+            },
+            {
+                "id": "sym",
+                "name": "SYM",
+                "models": ["husky150"]
+            },
+            {
+                "id": "zontes",
+                "name": "Zontes",
+                "models": ["150x"]
+            },
+            {
+                "id": "haojue",
+                "name": "Haojue",
+                "models": ["uhr"]
+            }
+        ]
+    },
+    {
+        "id": "guard",
+        "icon": "fa-shield-alt",
+        "name": "护杠",
+        "brands": [
+            {
+                "id": "honda",
+                "name": "HONDA",
+                "models": ["pcx160", "adv150", "adv350", "forza350", "click", "cg125"]
+            },
+            {
+                "id": "yamaha",
+                "name": "YAMAHA",
+                "models": ["nmax155", "xmax300", "aerox", "y15", "pg1"]
+            },
+            {
+                "id": "sym",
+                "name": "SYM",
+                "models": ["husky150"]
+            },
+            {
+                "id": "zontes",
+                "name": "Zontes",
+                "models": ["150x"]
+            },
+            {
+                "id": "haojue",
+                "name": "Haojue",
+                "models": ["uhr"]
+            }
+        ]
+    },
+    {
+        "id": "tail",
+        "icon": "fa-dolly",
+        "name": "尾架",
+        "brands": [
+            {
+                "id": "honda",
+                "name": "HONDA",
+                "models": ["pcx160", "adv150", "adv350", "forza350", "click", "cg125"]
+            },
+            {
+                "id": "yamaha",
+                "name": "YAMAHA",
+                "models": ["nmax155", "xmax300", "aerox", "y15", "pg1"]
+            },
+            {
+                "id": "sym",
+                "name": "SYM",
+                "models": ["husky150"]
+            },
+            {
+                "id": "zontes",
+                "name": "Zontes",
+                "models": ["150x"]
+            },
+            {
+                "id": "haojue",
+                "name": "Haojue",
+                "models": ["uhr"]
+            }
+        ]
+    },
+    {
+        "id": "topcase",
+        "icon": "fa-box",
+        "name": "尾箱",
+        "brands": [
+            {
+                "id": "honda",
+                "name": "HONDA",
+                "models": ["pcx160", "adv150", "adv350", "forza350", "click", "cg125"]
+            },
+            {
+                "id": "yamaha",
+                "name": "YAMAHA",
+                "models": ["nmax155", "xmax300", "aerox", "y15", "pg1"]
+            },
+            {
+                "id": "sym",
+                "name": "SYM",
+                "models": ["husky150"]
+            },
+            {
+                "id": "zontes",
+                "name": "Zontes",
+                "models": ["150x"]
+            },
+            {
+                "id": "haojue",
+                "name": "Haojue",
+                "models": ["uhr"]
+            }
+        ]
+    },
+    {
+        "id": "windshield",
+        "icon": "fa-wind",
+        "name": "风挡",
+        "brands": [
+            {
+                "id": "honda",
+                "name": "HONDA",
+                "models": ["pcx160", "adv150", "adv350", "forza350", "click", "cg125"]
+            },
+            {
+                "id": "yamaha",
+                "name": "YAMAHA",
+                "models": ["nmax155", "xmax300", "aerox", "y15", "pg1"]
+            },
+            {
+                "id": "sym",
+                "name": "SYM",
+                "models": ["husky150"]
+            },
+            {
+                "id": "zontes",
+                "name": "Zontes",
+                "models": ["150x"]
+            },
+            {
+                "id": "haojue",
+                "name": "Haojue",
+                "models": ["uhr"]
+            }
+        ]
+    }
+]

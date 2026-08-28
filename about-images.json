@@ -1,0 +1,39 @@
+[
+    {
+        "type": "image",
+        "src": "images/about-1.jpg",
+        "title": "Precision Injection Molding",
+        "desc": "Our specialized injection molding workshop for seat cushion base plates utilizes high-precision machinery to guarantee structural integrity and consistent manufacturing quality."
+    },
+    {
+        "type": "image",
+        "src": "images/about-2.jpg",
+        "title": "Advanced Foaming Technology",
+        "desc": "Equipped with 2x40 seat cushion foam foaming equipment, we produce high-density, resilient cushion cores that ensure superior comfort and long-lasting durability for all vehicle types."
+    },
+    {
+        "type": "video",
+        "src": "images/about-1.mp4",
+        "poster": "images/about-1-poster.jpg",
+        "title": "工厂生产线实拍",
+        "desc": "Equipped with 2x40 seat cushion foam foaming equipment, we produce high-density, resilient cushion cores that ensure superior comfort and long-lasting durability for all vehicle types."
+    },
+    {
+        "type": "image",
+        "src": "images/about-3.jpg",
+        "title": "Expert Craftsmanship",
+        "desc": "Featuring TIMIN fully automatic high-end cutting machines and TYPICAL CNC sewing systems, we achieve flawless leather fitting and precise assembly for a premium finish."
+    },
+    {
+        "type": "image",
+        "src": "images/about-4.jpg"
+    },
+    {
+        "type": "image",
+        "src": "images/about-5.jpg"
+    },
+    {
+        "type": "image",
+        "src": "images/about-6.jpg"
+    }
+]

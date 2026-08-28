@@ -1,0 +1,10 @@
+[
+    { "name": "HONDA", "logo": "images/brands/honda.png" },
+    { "name": "YAMAHA", "logo": "images/brands/yamaha.png" },
+    { "name": "SYM", "logo": "images/brands/sym.png" },
+    { "name": "ZONTES", "logo": "images/brands/zontes.png" },
+    { "name": "HAOJUE", "logo": "images/brands/haojue.png" },
+    { "name": "BMW", "logo": "images/brands/bmw.png" },
+    { "name": "DUCATI", "logo": "images/brands/ducati.png" },
+    { "name": "KTM", "logo": "images/brands/ktm.png" }
+]

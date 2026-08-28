@@ -1,0 +1,42 @@
+[
+    {
+        "number": "300万+",
+        "label": {
+            "zh": "年产能",
+            "en": "Annual Capacity",
+            "es": "Capacidad Anual",
+            "pt": "Capacidade Anual"
+        },
+        "icon": "fa-industry"
+    },
+    {
+        "number": "20+",
+        "label": {
+            "zh": "出口国家",
+            "en": "Export Countries",
+            "es": "Países Exportadores",
+            "pt": "Países Exportadores"
+        },
+        "icon": "fa-globe"
+    },
+    {
+        "number": "200+",
+        "label": {
+            "zh": "车型覆盖",
+            "en": "Models Covered",
+            "es": "Modelos Cubiertos",
+            "pt": "Modelos Cobertos"
+        },
+        "icon": "fa-motorcycle"
+    },
+    {
+        "number": "ISO 9001",
+        "label": {
+            "zh": "质量认证",
+            "en": "Quality Certification",
+            "es": "Certificación de Calidad",
+            "pt": "Certificação de Qualidade"
+        },
+        "icon": "fa-certificate"
+    }
+]
