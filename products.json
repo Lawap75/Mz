@@ -1,28 +1,212 @@
 [
-  {
-    "id": "seat-honda-pcx160-2",
-    "category": "seat",
-    "brand": "honda",
-    "model": "pcx160",
-    "name": {
-      "zh": "PCX160座垫",
-      "en": "PCX160 Seat",
-      "es": "Asiento PCX160",
-      "pt": "Banco PCX160"
-    },
-    "desc": {
-      "zh": "",
-      "en": "",
-      "es": "",
-      "pt": ""
-    },
-    "image": "images/seat-honda-pcx160-2.jpg",
-    "images": [
-      "images/seat-honda-pcx160-2.jpg",
-      "images/seat-honda-adv160-2-2.jpg"
-    ]
-  },
-  {
+	{
+	  "id": "seat-honda-pcx160-12",
+	  "category": "seat",
+	  "brand": "honda",
+	  "model": "pcx160",
+	  "name": {
+	    "zh": "PCX160座垫",
+	    "en": "PCX160 Seat",
+	    "es": "Asiento PCX160",
+	    "pt": "Banco PCX160"
+	  },
+	  "desc": {
+	    "zh": "",
+	    "en": "",
+	    "es": "",
+	    "pt": ""
+	  },
+	  "image": "images/seat-honda-pcx160-12.jpg",
+	  "images": [
+	    "images/seat-honda-pcx160-12.jpg",
+	    "images/seat-honda-pcx160-12-2.jpg"
+	  ]
+	},
+	{
+	  "id": "seat-honda-pcx160-6",
+	  "category": "seat",
+	  "brand": "honda",
+	  "model": "pcx160",
+	  "name": {
+	    "zh": "PCX160座垫",
+	    "en": "PCX160 Seat",
+	    "es": "Asiento PCX160",
+	    "pt": "Banco PCX160"
+	  },
+	  "desc": {
+	    "zh": "",
+	    "en": "",
+	    "es": "",
+	    "pt": ""
+	  },
+	  "image": "images/seat-honda-pcx160-6.jpg",
+	  "images": [
+	    "images/seat-honda-pcx160-6.jpg",
+	    "images/seat-honda-pcx160-6-2.jpg"
+	  ]
+	},
+	{
+	  "id": "seat-honda-pcx160-4",
+	  "category": "seat",
+	  "brand": "honda",
+	  "model": "pcx160",
+	  "name": {
+	    "zh": "PCX160座垫",
+	    "en": "PCX160 Seat",
+	    "es": "Asiento PCX160",
+	    "pt": "Banco PCX160"
+	  },
+	  "desc": {
+	    "zh": "",
+	    "en": "",
+	    "es": "",
+	    "pt": ""
+	  },
+	  "image": "images/seat-honda-pcx160-4.jpg",
+	  "images": [
+	    "images/seat-honda-pcx160-4.jpg",
+	    "images/seat-honda-pcx160-4-2.jpg"
+	  ]
+	},
+	{
+	  "id": "seat-honda-pcx160-7",
+	  "category": "seat",
+	  "brand": "honda",
+	  "model": "pcx160",
+	  "name": {
+	    "zh": "PCX160座垫",
+	    "en": "PCX160 Seat",
+	    "es": "Asiento PCX160",
+	    "pt": "Banco PCX160"
+	  },
+	  "desc": {
+	    "zh": "",
+	    "en": "",
+	    "es": "",
+	    "pt": ""
+	  },
+	  "image": "images/seat-honda-pcx160-7.jpg",
+	  "images": [
+	    "images/seat-honda-pcx160-7.jpg",
+	    "images/seat-honda-pcx160-7-2.jpg"
+	  ]
+	},
+	{
+	  "id": "seat-honda-pcx160-9",
+	  "category": "seat",
+	  "brand": "honda",
+	  "model": "pcx160",
+	  "name": {
+	    "zh": "PCX160座垫",
+	    "en": "PCX160 Seat",
+	    "es": "Asiento PCX160",
+	    "pt": "Banco PCX160"
+	  },
+	  "desc": {
+	    "zh": "",
+	    "en": "",
+	    "es": "",
+	    "pt": ""
+	  },
+	  "image": "images/seat-honda-pcx160-9.jpg",
+	  "images": [
+	    "images/seat-honda-pcx160-9.jpg",
+	    "images/seat-honda-pcx160-9-2.jpg"
+	  ]
+	},
+	{
+	  "id": "seat-honda-pcx160-5",
+	  "category": "seat",
+	  "brand": "honda",
+	  "model": "pcx160",
+	  "name": {
+	    "zh": "PCX160座垫",
+	    "en": "PCX160 Seat",
+	    "es": "Asiento PCX160",
+	    "pt": "Banco PCX160"
+	  },
+	  "desc": {
+	    "zh": "",
+	    "en": "",
+	    "es": "",
+	    "pt": ""
+	  },
+	  "image": "images/seat-honda-pcx160-5.jpg",
+	  "images": [
+	    "images/seat-honda-pcx160-5.jpg",
+	    "images/seat-honda-pcx160-5-2.jpg"
+	  ]
+	},
+	{
+	  "id": "seat-honda-pcx160-8",
+	  "category": "seat",
+	  "brand": "honda",
+	  "model": "pcx160",
+	  "name": {
+	    "zh": "PCX160座垫",
+	    "en": "PCX160 Seat",
+	    "es": "Asiento PCX160",
+	    "pt": "Banco PCX160"
+	  },
+	  "desc": {
+	    "zh": "",
+	    "en": "",
+	    "es": "",
+	    "pt": ""
+	  },
+	  "image": "images/seat-honda-pcx160-8.jpg",
+	  "images": [
+	    "images/seat-honda-pcx160-8.jpg",
+	    "images/seat-honda-pcx160-8-2.jpg"
+	  ]
+	},
+	{
+	  "id": "seat-honda-pcx160-10",
+	  "category": "seat",
+	  "brand": "honda",
+	  "model": "pcx160",
+	  "name": {
+	    "zh": "PCX160座垫",
+	    "en": "PCX160 Seat",
+	    "es": "Asiento PCX160",
+	    "pt": "Banco PCX160"
+	  },
+	  "desc": {
+	    "zh": "",
+	    "en": "",
+	    "es": "",
+	    "pt": ""
+	  },
+	  "image": "images/seat-honda-pcx160-10.jpg",
+	  "images": [
+	    "images/seat-honda-pcx160-10.jpg",
+	    "images/seat-honda-pcx160-10-2.jpg"
+	  ]
+	},
+	{
+	  "id": "seat-honda-pcx160-11",
+	  "category": "seat",
+	  "brand": "honda",
+	  "model": "pcx160",
+	  "name": {
+	    "zh": "PCX160座垫",
+	    "en": "PCX160 Seat",
+	    "es": "Asiento PCX160",
+	    "pt": "Banco PCX160"
+	  },
+	  "desc": {
+	    "zh": "",
+	    "en": "",
+	    "es": "",
+	    "pt": ""
+	  },
+	  "image": "images/seat-honda-pcx160-11.jpg",
+	  "images": [
+	    "images/seat-honda-pcx160-11.jpg",
+	    "images/seat-honda-pcx160-11-2.jpg"
+	  ]
+	},
+    {
     "id": "seat-honda-pcx160-3",
     "category": "seat",
     "brand": "honda",
@@ -46,7 +230,7 @@
     ]
   },
   {
-    "id": "seat-honda-pcx160-4",
+    "id": "seat-honda-pcx160-2",
     "category": "seat",
     "brand": "honda",
     "model": "pcx160",
@@ -62,173 +246,13 @@
       "es": "",
       "pt": ""
     },
-    "image": "images/seat-honda-pcx160-4.jpg",
+    "image": "images/seat-honda-pcx160-2.jpg",
     "images": [
-      "images/seat-honda-pcx160-4.jpg",
-      "images/seat-honda-pcx160-4-2.jpg"
+      "images/seat-honda-pcx160-2.jpg",
+      "images/seat-honda-adv160-2-2.jpg"
     ]
   },
-  {
-    "id": "seat-honda-pcx160-5",
-    "category": "seat",
-    "brand": "honda",
-    "model": "pcx160",
-    "name": {
-      "zh": "PCX160座垫",
-      "en": "PCX160 Seat",
-      "es": "Asiento PCX160",
-      "pt": "Banco PCX160"
-    },
-    "desc": {
-      "zh": "",
-      "en": "",
-      "es": "",
-      "pt": ""
-    },
-    "image": "images/seat-honda-pcx160-5.jpg",
-    "images": [
-      "images/seat-honda-pcx160-5.jpg",
-      "images/seat-honda-pcx160-5-2.jpg"
-    ]
-  },
-  {
-    "id": "seat-honda-pcx160-6",
-    "category": "seat",
-    "brand": "honda",
-    "model": "pcx160",
-    "name": {
-      "zh": "PCX160座垫",
-      "en": "PCX160 Seat",
-      "es": "Asiento PCX160",
-      "pt": "Banco PCX160"
-    },
-    "desc": {
-      "zh": "",
-      "en": "",
-      "es": "",
-      "pt": ""
-    },
-    "image": "images/seat-honda-pcx160-6.jpg",
-    "images": [
-      "images/seat-honda-pcx160-6.jpg",
-      "images/seat-honda-pcx160-6-2.jpg"
-    ]
-  },
-  {
-    "id": "seat-honda-pcx160-7",
-    "category": "seat",
-    "brand": "honda",
-    "model": "pcx160",
-    "name": {
-      "zh": "PCX160座垫",
-      "en": "PCX160 Seat",
-      "es": "Asiento PCX160",
-      "pt": "Banco PCX160"
-    },
-    "desc": {
-      "zh": "",
-      "en": "",
-      "es": "",
-      "pt": ""
-    },
-    "image": "images/seat-honda-pcx160-7.jpg",
-    "images": [
-      "images/seat-honda-pcx160-7.jpg",
-      "images/seat-honda-pcx160-7-2.jpg"
-    ]
-  },
-  {
-    "id": "seat-honda-pcx160-8",
-    "category": "seat",
-    "brand": "honda",
-    "model": "pcx160",
-    "name": {
-      "zh": "PCX160座垫",
-      "en": "PCX160 Seat",
-      "es": "Asiento PCX160",
-      "pt": "Banco PCX160"
-    },
-    "desc": {
-      "zh": "",
-      "en": "",
-      "es": "",
-      "pt": ""
-    },
-    "image": "images/seat-honda-pcx160-8.jpg",
-    "images": [
-      "images/seat-honda-pcx160-8.jpg",
-      "images/seat-honda-pcx160-8-2.jpg"
-    ]
-  },
-  {
-    "id": "seat-honda-pcx160-9",
-    "category": "seat",
-    "brand": "honda",
-    "model": "pcx160",
-    "name": {
-      "zh": "PCX160座垫",
-      "en": "PCX160 Seat",
-      "es": "Asiento PCX160",
-      "pt": "Banco PCX160"
-    },
-    "desc": {
-      "zh": "",
-      "en": "",
-      "es": "",
-      "pt": ""
-    },
-    "image": "images/seat-honda-pcx160-9.jpg",
-    "images": [
-      "images/seat-honda-pcx160-9.jpg",
-      "images/seat-honda-pcx160-9-2.jpg"
-    ]
-  },
-  {
-    "id": "seat-honda-pcx160-10",
-    "category": "seat",
-    "brand": "honda",
-    "model": "pcx160",
-    "name": {
-      "zh": "PCX160座垫",
-      "en": "PCX160 Seat",
-      "es": "Asiento PCX160",
-      "pt": "Banco PCX160"
-    },
-    "desc": {
-      "zh": "",
-      "en": "",
-      "es": "",
-      "pt": ""
-    },
-    "image": "images/seat-honda-pcx160-10.jpg",
-    "images": [
-      "images/seat-honda-pcx160-10.jpg",
-      "images/seat-honda-pcx160-10-2.jpg"
-    ]
-  },
-  {
-    "id": "seat-honda-pcx160-11",
-    "category": "seat",
-    "brand": "honda",
-    "model": "pcx160",
-    "name": {
-      "zh": "PCX160座垫",
-      "en": "PCX160 Seat",
-      "es": "Asiento PCX160",
-      "pt": "Banco PCX160"
-    },
-    "desc": {
-      "zh": "",
-      "en": "",
-      "es": "",
-      "pt": ""
-    },
-    "image": "images/seat-honda-pcx160-11.jpg",
-    "images": [
-      "images/seat-honda-pcx160-11.jpg",
-      "images/seat-honda-pcx160-11-2.jpg"
-    ]
-  },
+ 
   {
     "id": "seat-honda-pcx-2",
     "category": "seat",
@@ -298,29 +322,7 @@
       "images/seat-honda-adv160-3-2.jpg"
     ]
   },
-  {
-    "id": "seat-honda-adv160-4",
-    "category": "seat",
-    "brand": "honda",
-    "model": "adv160",
-    "name": {
-      "zh": "ADV160座垫",
-      "en": "ADV160 Seat",
-      "es": "Asiento ADV160",
-      "pt": "Banco ADV160"
-    },
-    "desc": {
-      "zh": "",
-      "en": "",
-      "es": "",
-      "pt": ""
-    },
-    "image": "images/seat-honda-adv160-4.jpg",
-    "images": [
-      "images/seat-honda-adv160-4.jpg",
-      "images/seat-honda-adv160-4-2.jpg"
-    ]
-  },
+ 
   {
     "id": "seat-honda-adv150-2",
     "category": "seat",
@@ -808,7 +810,7 @@
     "id": "seat-honda-click150-2",
     "category": "seat",
     "brand": "honda",
-    "model": "click150",
+    "model": "click",
     "name": {
       "zh": "CLICK150座垫",
       "en": "CLICK150 Seat",
@@ -831,7 +833,7 @@
     "id": "seat-honda-click160-2",
     "category": "seat",
     "brand": "honda",
-    "model": "click160",
+    "model": "click",
     "name": {
       "zh": "CLICK160座垫",
       "en": "CLICK160 Seat",
@@ -854,7 +856,7 @@
     "id": "seat-honda-click160-3",
     "category": "seat",
     "brand": "honda",
-    "model": "click160",
+    "model": "click",
     "name": {
       "zh": "CLICK160座垫",
       "en": "CLICK160 Seat",
@@ -877,7 +879,7 @@
     "id": "seat-honda-vario160-2",
     "category": "seat",
     "brand": "honda",
-    "model": "vario160",
+    "model": "click",
     "name": {
       "zh": "VARIO160座垫",
       "en": "VARIO160 Seat",
@@ -1284,7 +1286,7 @@
     "image": "images/seat-kymco-h150-2.jpg",
     "images": [
       "images/seat-kymco-h150-2.jpg",
-      "images/seat-kymco-h150-2-3.jpg"
+      "images/seat-kymco-h150-2-2.jpg"
     ]
   },
   {
