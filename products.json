@@ -280,7 +280,7 @@
     "id": "seat-honda-adv160-2",
     "category": "seat",
     "brand": "honda",
-    "model": "adv160",
+    "model": "adv150",
     "name": {
       "zh": "ADV160座垫",
       "en": "ADV160 Seat",
@@ -303,7 +303,7 @@
     "id": "seat-honda-adv160-3",
     "category": "seat",
     "brand": "honda",
-    "model": "adv160",
+    "model": "adv150",
     "name": {
       "zh": "ADV160座垫",
       "en": "ADV160 Seat",
@@ -1132,7 +1132,7 @@
     "id": "seat-yamaha-aerox155-2",
     "category": "seat",
     "brand": "yamaha",
-    "model": "aerox155",
+    "model": "aerox",
     "name": {
       "zh": "AEROX155座垫",
       "en": "AEROX155 Seat",
@@ -1155,7 +1155,7 @@
     "id": "seat-yamaha-aerox155-3",
     "category": "seat",
     "brand": "yamaha",
-    "model": "aerox155",
+    "model": "aerox",
     "name": {
       "zh": "AEROX155座垫",
       "en": "AEROX155 Seat",
@@ -1891,7 +1891,7 @@
     "id": "backrest-honda-adv160-2",
     "category": "backrest",
     "brand": "honda",
-    "model": "adv160",
+    "model": "adv150",
     "name": {
       "zh": "ADV160靠背",
       "en": "ADV160 Backrest",
