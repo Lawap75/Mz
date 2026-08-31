@@ -280,7 +280,7 @@
     "id": "seat-honda-adv160-2",
     "category": "seat",
     "brand": "honda",
-    "model": "adv150",
+    "model": "adv160",
     "name": {
       "zh": "ADV160座垫",
       "en": "ADV160 Seat",
@@ -303,7 +303,7 @@
     "id": "seat-honda-adv160-3",
     "category": "seat",
     "brand": "honda",
-    "model": "adv150",
+    "model": "adv160",
     "name": {
       "zh": "ADV160座垫",
       "en": "ADV160 Seat",
@@ -810,7 +810,7 @@
     "id": "seat-honda-click150-2",
     "category": "seat",
     "brand": "honda",
-    "model": "click",
+    "model": "click150",
     "name": {
       "zh": "CLICK150座垫",
       "en": "CLICK150 Seat",
@@ -833,7 +833,7 @@
     "id": "seat-honda-click160-2",
     "category": "seat",
     "brand": "honda",
-    "model": "click",
+    "model": "click160",
     "name": {
       "zh": "CLICK160座垫",
       "en": "CLICK160 Seat",
@@ -856,7 +856,7 @@
     "id": "seat-honda-click160-3",
     "category": "seat",
     "brand": "honda",
-    "model": "click",
+    "model": "click160",
     "name": {
       "zh": "CLICK160座垫",
       "en": "CLICK160 Seat",
@@ -1132,7 +1132,7 @@
     "id": "seat-yamaha-aerox155-2",
     "category": "seat",
     "brand": "yamaha",
-    "model": "aerox",
+    "model": "aerox155",
     "name": {
       "zh": "AEROX155座垫",
       "en": "AEROX155 Seat",
@@ -1155,7 +1155,7 @@
     "id": "seat-yamaha-aerox155-3",
     "category": "seat",
     "brand": "yamaha",
-    "model": "aerox",
+    "model": "aerox155",
     "name": {
       "zh": "AEROX155座垫",
       "en": "AEROX155 Seat",
@@ -1201,7 +1201,7 @@
     "id": "seat-yamaha-y15zr-2",
     "category": "seat",
     "brand": "yamaha",
-    "model": "y15zr",
+    "model": "y15",
     "name": {
       "zh": "Y15ZR座垫",
       "en": "Y15ZR Seat",
@@ -1224,7 +1224,7 @@
     "id": "seat-yamaha-y15y16-2",
     "category": "seat",
     "brand": "yamaha",
-    "model": "y15y16",
+    "model": "y15",
     "name": {
       "zh": "Y15Y16座垫",
       "en": "Y15Y16 Seat",
@@ -1891,7 +1891,7 @@
     "id": "backrest-honda-adv160-2",
     "category": "backrest",
     "brand": "honda",
-    "model": "adv150",
+    "model": "adv160",
     "name": {
       "zh": "ADV160靠背",
       "en": "ADV160 Backrest",

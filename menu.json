@@ -7,12 +7,12 @@
             {
                 "id": "honda",
                 "name": "HONDA",
-                "models": ["pcx160", "adv150", "adv350", "forza350", "click", "cg125"]
+                "models": ["pcx160", "adv150","adv160", "adv350", "forza350", "click150","click160","vario150","vario160", "cg125"]
             },
             {
                 "id": "yamaha",
                 "name": "YAMAHA",
-                "models": ["nmax155", "xmax300", "aerox", "y15", "pg1"]
+                "models": ["nmax155", "xmax300", "aerox155", "nvx155","y15","y16", "pg1"]
             },
             {
                 "id": "sym",
@@ -22,12 +22,17 @@
             {
                 "id": "zontes",
                 "name": "Zontes",
-                "models": ["150x"]
+                "models": ["150x","350E","368G"]
             },
             {
                 "id": "haojue",
                 "name": "Haojue",
-                "models": ["uhr"]
+                "models": ["uhr","ufr"]
+            },
+             {
+                "id": "harley",
+                "name": "Harley",
+                "models": []
             }
         ]
     },
@@ -35,16 +40,16 @@
         "id": "backrest",
         "icon": "fa-chair",
         "name": "靠背",
-        "brands": [
+        "brands":  [
             {
                 "id": "honda",
                 "name": "HONDA",
-                "models": ["pcx160", "adv150", "adv350", "forza350", "click", "cg125"]
+                "models": ["pcx160", "adv150","adv160", "adv350", "forza350", "click150","click160","vario150","vario160", "cg125"]
             },
             {
                 "id": "yamaha",
                 "name": "YAMAHA",
-                "models": ["nmax155", "xmax300", "aerox", "y15", "pg1"]
+                "models": ["nmax155", "xmax300", "aerox155", "nvx155","y15","y16", "pg1"]
             },
             {
                 "id": "sym",
@@ -54,12 +59,17 @@
             {
                 "id": "zontes",
                 "name": "Zontes",
-                "models": ["150x"]
+                "models": ["150x","350E","368G"]
             },
             {
                 "id": "haojue",
                 "name": "Haojue",
-                "models": ["uhr"]
+                "models": ["uhr","ufr"]
+            },
+             {
+                "id": "harley",
+                "name": "Harley",
+                "models": []
             }
         ]
     },
@@ -67,16 +77,16 @@
         "id": "guard",
         "icon": "fa-shield-alt",
         "name": "护杠",
-        "brands": [
+        "brands":  [
             {
                 "id": "honda",
                 "name": "HONDA",
-                "models": ["pcx160", "adv150", "adv350", "forza350", "click", "cg125"]
+                "models": ["pcx160", "adv150","adv160", "adv350", "forza350", "click150","click160","vario150","vario160", "cg125"]
             },
             {
                 "id": "yamaha",
                 "name": "YAMAHA",
-                "models": ["nmax155", "xmax300", "aerox", "y15", "pg1"]
+                "models": ["nmax155", "xmax300", "aerox155", "nvx155","y15","y16", "pg1"]
             },
             {
                 "id": "sym",
@@ -86,12 +96,17 @@
             {
                 "id": "zontes",
                 "name": "Zontes",
-                "models": ["150x"]
+                "models": ["150x","350E","368G"]
             },
             {
                 "id": "haojue",
                 "name": "Haojue",
-                "models": ["uhr"]
+                "models": ["uhr","ufr"]
+            },
+             {
+                "id": "harley",
+                "name": "Harley",
+                "models": []
             }
         ]
     },
@@ -99,16 +114,16 @@
         "id": "tail",
         "icon": "fa-dolly",
         "name": "尾架",
-        "brands": [
+        "brands":  [
             {
                 "id": "honda",
                 "name": "HONDA",
-                "models": ["pcx160", "adv150", "adv350", "forza350", "click", "cg125"]
+                "models": ["pcx160", "adv150","adv160", "adv350", "forza350", "click150","click160","vario150","vario160", "cg125"]
             },
             {
                 "id": "yamaha",
                 "name": "YAMAHA",
-                "models": ["nmax155", "xmax300", "aerox", "y15", "pg1"]
+                "models": ["nmax155", "xmax300", "aerox155", "nvx155","y15","y16", "pg1"]
             },
             {
                 "id": "sym",
@@ -118,12 +133,17 @@
             {
                 "id": "zontes",
                 "name": "Zontes",
-                "models": ["150x"]
+                "models": ["150x","350E","368G"]
             },
             {
                 "id": "haojue",
                 "name": "Haojue",
-                "models": ["uhr"]
+                "models": ["uhr","ufr"]
+            },
+             {
+                "id": "harley",
+                "name": "Harley",
+                "models": []
             }
         ]
     },
@@ -131,16 +151,16 @@
         "id": "topcase",
         "icon": "fa-box",
         "name": "尾箱",
-        "brands": [
+        "brands":  [
             {
                 "id": "honda",
                 "name": "HONDA",
-                "models": ["pcx160", "adv150", "adv350", "forza350", "click", "cg125"]
+                "models": ["pcx160", "adv150","adv160", "adv350", "forza350", "click150","click160","vario150","vario160", "cg125"]
             },
             {
                 "id": "yamaha",
                 "name": "YAMAHA",
-                "models": ["nmax155", "xmax300", "aerox", "y15", "pg1"]
+                "models": ["nmax155", "xmax300", "aerox155", "nvx155","y15","y16", "pg1"]
             },
             {
                 "id": "sym",
@@ -150,12 +170,17 @@
             {
                 "id": "zontes",
                 "name": "Zontes",
-                "models": ["150x"]
+                "models": ["150x","350E","368G"]
             },
             {
                 "id": "haojue",
                 "name": "Haojue",
-                "models": ["uhr"]
+                "models": ["uhr","ufr"]
+            },
+             {
+                "id": "harley",
+                "name": "Harley",
+                "models": []
             }
         ]
     },
@@ -163,16 +188,16 @@
         "id": "windshield",
         "icon": "fa-wind",
         "name": "风挡",
-        "brands": [
+        "brands":  [
             {
                 "id": "honda",
                 "name": "HONDA",
-                "models": ["pcx160", "adv150", "adv350", "forza350", "click", "cg125"]
+                "models": ["pcx160", "adv150","adv160", "adv350", "forza350", "click150","click160","vario150","vario160", "cg125"]
             },
             {
                 "id": "yamaha",
                 "name": "YAMAHA",
-                "models": ["nmax155", "xmax300", "aerox", "y15", "pg1"]
+                "models": ["nmax155", "xmax300", "aerox155", "nvx155","y15","y16", "pg1"]
             },
             {
                 "id": "sym",
@@ -182,12 +207,17 @@
             {
                 "id": "zontes",
                 "name": "Zontes",
-                "models": ["150x"]
+                "models": ["150x","350E","368G"]
             },
             {
                 "id": "haojue",
                 "name": "Haojue",
-                "models": ["uhr"]
+                "models": ["uhr","ufr"]
+            },
+             {
+                "id": "harley",
+                "name": "Harley",
+                "models": []
             }
         ]
     }
