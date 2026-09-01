@@ -7,7 +7,7 @@
             {
                 "id": "honda",
                 "name": "HONDA",
-                "models": ["pcx160", "adv150","adv160", "adv350", "forza350", "click150","click160","vario150","vario160", "cg125"]
+                "models": ["pcx160", "adv150","adv160", "adv350", "forza350", "click150","click160","vario150","vario160", "cg125","x-adv750","nc750x","goldwinggl1800"]
             },
             {
                 "id": "yamaha",
@@ -44,7 +44,7 @@
             {
                 "id": "honda",
                 "name": "HONDA",
-                "models": ["pcx160", "adv150","adv160", "adv350", "forza350", "click150","click160","vario150","vario160", "cg125"]
+                "models": ["pcx160", "adv150","adv160", "adv350", "forza350", "click150","click160","vario150","vario160", "cg125","x-adv750","nc750x","goldwinggl1800"]
             },
             {
                 "id": "yamaha",
@@ -81,7 +81,7 @@
             {
                 "id": "honda",
                 "name": "HONDA",
-                "models": ["pcx160", "adv150","adv160", "adv350", "forza350", "click150","click160","vario150","vario160", "cg125"]
+                "models": ["pcx160", "adv150","adv160", "adv350", "forza350", "click150","click160","vario150","vario160", "cg125","x-adv750","nc750x","goldwinggl1800"]
             },
             {
                 "id": "yamaha",
@@ -118,7 +118,7 @@
             {
                 "id": "honda",
                 "name": "HONDA",
-                "models": ["pcx160", "adv150","adv160", "adv350", "forza350", "click150","click160","vario150","vario160", "cg125"]
+                "models": ["pcx160", "adv150","adv160", "adv350", "forza350", "click150","click160","vario150","vario160", "cg125","xadv750","nc750x","goldwinggl1800"]
             },
             {
                 "id": "yamaha",
@@ -155,7 +155,7 @@
             {
                 "id": "honda",
                 "name": "HONDA",
-                "models": ["pcx160", "adv150","adv160", "adv350", "forza350", "click150","click160","vario150","vario160", "cg125"]
+                "models": ["pcx160", "adv150","adv160", "adv350", "forza350", "click150","click160","vario150","vario160", "cg125","x-adv750","nc750x","goldwinggl1800"]
             },
             {
                 "id": "yamaha",
@@ -192,7 +192,7 @@
             {
                 "id": "honda",
                 "name": "HONDA",
-                "models": ["pcx160", "adv150","adv160", "adv350", "forza350", "click150","click160","vario150","vario160", "cg125"]
+                "models": ["pcx160", "adv150","adv160", "adv350", "forza350", "click150","click160","vario150","vario160", "cg125","x-adv750","nc750x","goldwinggl1800"]
             },
             {
                 "id": "yamaha",
