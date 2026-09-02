@@ -2785,7 +2785,956 @@
       "images/rear rack-zontes-150x-2.jpg",
       "images/rear rack-zontes-150x-2-2.jpg"
     ]
+  },
+  {
+    "id": "guard-honda-pcx160-2",
+    "category": "guard",
+    "brand": "honda",
+    "model": "pcx160",
+    "name": {
+      "zh": "PCX160护杠",
+      "en": "PCX160 Crash Bar",
+      "es": "Defensa PCX160",
+      "pt": "Protetor PCX160"
+    },
+    "desc": {
+      "zh": "",
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "image": "images/crash bar-honda-pcx160-2.jpg",
+    "images": [
+      "images/crash bar-honda-pcx160-2.jpg",
+      "images/crash bar-honda-pcx160-2-2.jpg",
+      "images/crash bar-honda-pcx160-2-3.jpg",
+      "images/crash bar-honda-pcx160-2-4.jpg"
+    ]
+  },
+  {
+    "id": "guard-honda-pcx160-3",
+    "category": "guard",
+    "brand": "honda",
+    "model": "pcx160",
+    "name": {
+      "zh": "PCX160护杠",
+      "en": "PCX160 Crash Bar",
+      "es": "Defensa PCX160",
+      "pt": "Protetor PCX160"
+    },
+    "desc": {
+      "zh": "",
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "image": "images/crash bar-honda-pcx160-3.jpg",
+    "images": [
+      "images/crash bar-honda-pcx160-3.jpg",
+      "images/crash bar-honda-pcx160-3-2.jpg"
+    ]
+  },
+  {
+    "id": "guard-honda-pcx160-4",
+    "category": "guard",
+    "brand": "honda",
+    "model": "pcx160",
+    "name": {
+      "zh": "PCX160护杠",
+      "en": "PCX160 Crash Bar",
+      "es": "Defensa PCX160",
+      "pt": "Protetor PCX160"
+    },
+    "desc": {
+      "zh": "",
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "image": "images/crash bar-honda-pcx160-4.jpg",
+    "images": [
+      "images/crash bar-honda-pcx160-4.jpg",
+      "images/crash bar-honda-pcx160-4-2.jpg",
+      "images/crash bar-honda-pcx160-4-3.jpg"
+    ]
+  },
+  {
+    "id": "guard-honda-pcx160-5",
+    "category": "guard",
+    "brand": "honda",
+    "model": "pcx160",
+    "name": {
+      "zh": "PCX160护杠",
+      "en": "PCX160 Crash Bar",
+      "es": "Defensa PCX160",
+      "pt": "Protetor PCX160"
+    },
+    "desc": {
+      "zh": "",
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "image": "images/crash bar-honda-pcx160-5.jpg",
+    "images": [
+      "images/crash bar-honda-pcx160-5.jpg",
+      "images/crash bar-honda-pcx160-5-2.jpg"
+    ]
+  },
+  {
+    "id": "guard-yamaha-nmax155-2",
+    "category": "guard",
+    "brand": "yamaha",
+    "model": "nmax155",
+    "name": {
+      "zh": "NMAX155护杠",
+      "en": "NMAX155 Crash Bar",
+      "es": "Defensa NMAX155",
+      "pt": "Protetor NMAX155"
+    },
+    "desc": {
+      "zh": "",
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "image": "images/crash bar-yamaha-nmax155-2.jpg",
+    "images": [
+      "images/crash bar-yamaha-nmax155-2.jpg",
+      "images/crash bar-yamaha-nmax155-2-2.jpg"
+    ]
+  },
+  {
+    "id": "guard-yamaha-nmax155-3",
+    "category": "guard",
+    "brand": "yamaha",
+    "model": "nmax155",
+    "name": {
+      "zh": "NMAX155护杠",
+      "en": "NMAX155 Crash Bar",
+      "es": "Defensa NMAX155",
+      "pt": "Protetor NMAX155"
+    },
+    "desc": {
+      "zh": "",
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "image": "images/crash bar-yamaha-nmax155-3.jpg",
+    "images": [
+      "images/crash bar-yamaha-nmax155-3.jpg",
+      "images/crash bar-yamaha-nmax155-3-2.jpg"
+    ]
+  },
+  {
+    "id": "guard-yamaha-nmax155-4",
+    "category": "guard",
+    "brand": "yamaha",
+    "model": "nmax155",
+    "name": {
+      "zh": "NMAX155护杠",
+      "en": "NMAX155 Crash Bar",
+      "es": "Defensa NMAX155",
+      "pt": "Protetor NMAX155"
+    },
+    "desc": {
+      "zh": "",
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "image": "images/crash bar-yamaha-nmax155-4.jpg",
+    "images": [
+      "images/crash bar-yamaha-nmax155-4.jpg",
+      "images/crash bar-yamaha-nmax155-4-2.jpg"
+    ]
+  },
+  {
+    "id": "guard-yamaha-xmax300-2",
+    "category": "guard",
+    "brand": "yamaha",
+    "model": "xmax300",
+    "name": {
+      "zh": "XMAX300护杠",
+      "en": "XMAX300 Crash Bar",
+      "es": "Defensa XMAX300",
+      "pt": "Protetor XMAX300"
+    },
+    "desc": {
+      "zh": "",
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "image": "images/crash bar-yamaha-xmax300-2.jpg",
+    "images": [
+      "images/crash bar-yamaha-xmax300-2.jpg",
+      "images/crash bar-yamaha-xmax300-2-2.jpg"
+    ]
+  },
+  {
+    "id": "guard-honda-adv160-2",
+    "category": "guard",
+    "brand": "honda",
+    "model": "adv160",
+    "name": {
+      "zh": "ADV160护杠",
+      "en": "ADV160 Crash Bar",
+      "es": "Defensa ADV160",
+      "pt": "Protetor ADV160"
+    },
+    "desc": {
+      "zh": "",
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "image": "images/crash bar-honda-adv160-2.jpg",
+    "images": [
+      "images/crash bar-honda-adv160-2.jpg",
+      "images/crash bar-honda-adv160-2-2.jpg"
+    ]
+  },
+  {
+    "id": "guard-honda-adv160-3",
+    "category": "guard",
+    "brand": "honda",
+    "model": "adv160",
+    "name": {
+      "zh": "ADV160护杠",
+      "en": "ADV160 Crash Bar",
+      "es": "Defensa ADV160",
+      "pt": "Protetor ADV160"
+    },
+    "desc": {
+      "zh": "",
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "image": "images/crash bar-honda-adv160-3.jpg",
+    "images": [
+      "images/crash bar-honda-adv160-3.jpg",
+      "images/crash bar-honda-adv160-3-2.jpg"
+    ]
+  },
+  {
+    "id": "guard-honda-adv160-4",
+    "category": "guard",
+    "brand": "honda",
+    "model": "adv160",
+    "name": {
+      "zh": "ADV160护杠",
+      "en": "ADV160 Crash Bar",
+      "es": "Defensa ADV160",
+      "pt": "Protetor ADV160"
+    },
+    "desc": {
+      "zh": "",
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "image": "images/crash bar-honda-adv160-4.jpg",
+    "images": [
+      "images/crash bar-honda-adv160-4.jpg",
+      "images/crash bar-honda-adv160-4-2.jpg"
+    ]
+  },
+  {
+    "id": "guard-honda-adv160-5",
+    "category": "guard",
+    "brand": "honda",
+    "model": "adv160",
+    "name": {
+      "zh": "ADV160护杠",
+      "en": "ADV160 Crash Bar",
+      "es": "Defensa ADV160",
+      "pt": "Protetor ADV160"
+    },
+    "desc": {
+      "zh": "",
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "image": "images/crash bar-honda-adv160-5.jpg",
+    "images": [
+      "images/crash bar-honda-adv160-5.jpg",
+      "images/crash bar-honda-adv160-5-2.jpg"
+    ]
+  },
+  {
+    "id": "guard-honda-adv350-2",
+    "category": "guard",
+    "brand": "honda",
+    "model": "adv350",
+    "name": {
+      "zh": "ADV350护杠",
+      "en": "ADV350 Crash Bar",
+      "es": "Defensa ADV350",
+      "pt": "Protetor ADV350"
+    },
+    "desc": {
+      "zh": "",
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "image": "images/crash bar-honda-adv350-2.jpg",
+    "images": [
+      "images/crash bar-honda-adv350-2.jpg",
+      "images/crash bar-honda-adv350-2-2.jpg"
+    ]
+  },
+  {
+    "id": "guard-honda-click160-2",
+    "category": "guard",
+    "brand": "honda",
+    "model": "click160",
+    "name": {
+      "zh": "CLICK160护杠",
+      "en": "CLICK160 Crash Bar",
+      "es": "Defensa CLICK160",
+      "pt": "Protetor CLICK160"
+    },
+    "desc": {
+      "zh": "",
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "image": "images/crash bar-honda-click160-2.jpg",
+    "images": [
+      "images/crash bar-honda-click160-2.jpg",
+      "images/crash bar-honda-click160-2-2.jpg"
+    ]
+  },
+  {
+    "id": "guard-honda-x-adv750-2",
+    "category": "guard",
+    "brand": "honda",
+    "model": "x-adv750",
+    "name": {
+      "zh": "X-ADV750护杠",
+      "en": "X-ADV750 Crash Bar",
+      "es": "Defensa X-ADV750",
+      "pt": "Protetor X-ADV750"
+    },
+    "desc": {
+      "zh": "",
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "image": "images/crash bar-honda-x-adv750-2.jpg",
+    "images": [
+      "images/crash bar-honda-x-adv750-2.jpg",
+      "images/crash bar-honda-x-adv750-2-2.jpg"
+    ]
+  },
+  {
+    "id": "guard-zontes-150x-2",
+    "category": "guard",
+    "brand": "zontes",
+    "model": "150x",
+    "name": {
+      "zh": "150X护杠",
+      "en": "150X Crash Bar",
+      "es": "Defensa 150X",
+      "pt": "Protetor 150X"
+    },
+    "desc": {
+      "zh": "",
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "image": "images/crash bar-zontes-150x-2.jpg",
+    "images": [
+      "images/crash bar-zontes-150x-2.jpg",
+      "images/crash bar-zontes-150x-2-2.jpg"
+    ]
+  },
+  {
+    "id": "guard-zontes-368g-2",
+    "category": "guard",
+    "brand": "zontes",
+    "model": "368g",
+    "name": {
+      "zh": "368G护杠",
+      "en": "368G Crash Bar",
+      "es": "Defensa 368G",
+      "pt": "Protetor 368G"
+    },
+    "desc": {
+      "zh": "",
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "image": "images/crash bar-zontes-368g-2.jpg",
+    "images": [
+      "images/crash bar-zontes-368g-2.jpg",
+      "images/crash bar-zontes-368g-2-2.jpg"
+    ]
+  },
+  {
+    "id": "guard-haojue-uhr150-2",
+    "category": "guard",
+    "brand": "haojue",
+    "model": "uhr150",
+    "name": {
+      "zh": "UHR150护杠",
+      "en": "UHR150 Crash Bar",
+      "es": "Defensa UHR150",
+      "pt": "Protetor UHR150"
+    },
+    "desc": {
+      "zh": "",
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "image": "images/crash bar-haojue-uhr150-2.jpg",
+    "images": [
+      "images/crash bar-haojue-uhr150-2.jpg",
+      "images/crash bar-haojue-uhr150-2-2.jpg",
+      "images/crash bar-haojue-uhr150-2-3.jpg"
+    ]
+  },
+  {
+    "id": "guard-yamaha-9gt-2",
+    "category": "guard",
+    "brand": "yamaha",
+    "model": "9gt",
+    "name": {
+      "zh": "9GT护杠",
+      "en": "9GT Crash Bar",
+      "es": "Defensa 9GT",
+      "pt": "Protetor 9GT"
+    },
+    "desc": {
+      "zh": "",
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "image": "images/crash bar-yamaha-9gt-2.jpg",
+    "images": [
+      "images/crash bar-yamaha-9gt-2.jpg",
+      "images/crash bar-yamaha-9gt-2-2.jpg"
+    ]
+  },
+  {
+    "id": "guard-bmw-1300gs-2",
+    "category": "guard",
+    "brand": "bmw",
+    "model": "1300gs",
+    "name": {
+      "zh": "1300GS护杠",
+      "en": "1300GS Crash Bar",
+      "es": "Defensa 1300GS",
+      "pt": "Protetor 1300GS"
+    },
+    "desc": {
+      "zh": "",
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "image": "images/crash bar-bmw-1300gs-2.jpg",
+    "images": [
+      "images/crash bar-bmw-1300gs-2.jpg",
+      "images/crash bar-bmw-1300gs-2-2.jpg"
+    ]
+  },
+  {
+    "id": "guard-bmw-f850gs-2",
+    "category": "guard",
+    "brand": "bmw",
+    "model": "f850gs",
+    "name": {
+      "zh": "F850GS护杠",
+      "en": "F850GS Crash Bar",
+      "es": "Defensa F850GS",
+      "pt": "Protetor F850GS"
+    },
+    "desc": {
+      "zh": "",
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "image": "images/crash bar-bmw-f850gs-2.jpg",
+    "images": [
+      "images/crash bar-bmw-f850gs-2.jpg",
+      "images/crash bar-bmw-f850gs-2-2.jpg"
+    ]
+  },
+  {
+    "id": "guard-bmw-f850gs-adv-2",
+    "category": "guard",
+    "brand": "bmw",
+    "model": "f850gsadv",
+    "name": {
+      "zh": "F850GS-ADV护杠",
+      "en": "F850GS-ADV Crash Bar",
+      "es": "Defensa F850GS-ADV",
+      "pt": "Protetor F850GS-ADV"
+    },
+    "desc": {
+      "zh": "",
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "image": "images/crash bar-bmw-f850gs-adv-2.jpg",
+    "images": [
+      "images/crash bar-bmw-f850gs-adv-2.jpg",
+      "images/crash bar-bmw-f850gs-adv-2-2.jpg"
+    ]
+  },
+  {
+    "id": "guard-bmw-f900gs-2",
+    "category": "guard",
+    "brand": "bmw",
+    "model": "f900gs",
+    "name": {
+      "zh": "F900GS护杠",
+      "en": "F900GS Crash Bar",
+      "es": "Defensa F900GS",
+      "pt": "Protetor F900GS"
+    },
+    "desc": {
+      "zh": "",
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "image": "images/crash bar-bmw-f900gs-2.jpg",
+    "images": [
+      "images/crash bar-bmw-f900gs-2.jpg",
+      "images/crash bar-bmw-f900gs-2-2.jpg"
+    ]
+  },
+  {
+    "id": "guard-cf-800mt-2",
+    "category": "guard",
+    "brand": "cf",
+    "model": "800mt",
+    "name": {
+      "zh": "800MT护杠",
+      "en": "800MT Crash Bar",
+      "es": "Defensa 800MT",
+      "pt": "Protetor 800MT"
+    },
+    "desc": {
+      "zh": "",
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "image": "images/crash bar-cf-800mt-2.jpg",
+    "images": [
+      "images/crash bar-cf-800mt-2.jpg",
+      "images/crash bar-cf-800mt-2-2.jpg"
+    ]
+  },
+  {
+    "id": "guard-honda-africa-twin1100-2",
+    "category": "guard",
+    "brand": "honda",
+    "model": "africatwin1100",
+    "name": {
+      "zh": "非洲双缸1100护杠",
+      "en": "Africa Twin1100 Crash Bar",
+      "es": "Defensa Africa Twin1100",
+      "pt": "Protetor Africa Twin1100"
+    },
+    "desc": {
+      "zh": "",
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "image": "images/crash bar-honda-africa twin1100-2.jpg",
+    "images": [
+      "images/crash bar-honda-africa twin1100-2.jpg",
+      "images/crash bar-honda-africa twin1100-2-2.jpg"
+    ]
+  },
+  {
+    "id": "guard-honda-cb750-2",
+    "category": "guard",
+    "brand": "honda",
+    "model": "cb750",
+    "name": {
+      "zh": "CB750护杠",
+      "en": "CB750 Crash Bar",
+      "es": "Defensa CB750",
+      "pt": "Protetor CB750"
+    },
+    "desc": {
+      "zh": "",
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "image": "images/crash bar-honda-cb750-2.jpg",
+    "images": [
+      "images/crash bar-honda-cb750-2.jpg",
+      "images/crash bar-honda-cb750-2-2.jpg"
+    ]
+  },
+  {
+    "id": "guard-honda-nc750x-2",
+    "category": "guard",
+    "brand": "honda",
+    "model": "nc750x",
+    "name": {
+      "zh": "NC750X护杠",
+      "en": "NC750X Crash Bar",
+      "es": "Defensa NC750X",
+      "pt": "Protetor NC750X"
+    },
+    "desc": {
+      "zh": "",
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "image": "images/crash bar-honda-nc750x-2.jpg",
+    "images": [
+      "images/crash bar-honda-nc750x-2.jpg",
+      "images/crash bar-honda-nc750x-2-2.jpg"
+    ]
+  },
+  {
+    "id": "guard-honda-transalp750xl-2",
+    "category": "guard",
+    "brand": "honda",
+    "model": "transalp750xl",
+    "name": {
+      "zh": "Transalp750XL护杠",
+      "en": "Transalp750XL Crash Bar",
+      "es": "Defensa Transalp750XL",
+      "pt": "Protetor Transalp750XL"
+    },
+    "desc": {
+      "zh": "",
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "image": "images/crash bar-honda-transalp750xl-2.jpg",
+    "images": [
+      "images/crash bar-honda-transalp750xl-2.jpg",
+      "images/crash bar-honda-transalp750xl-2-2.jpg"
+    ]
+  },
+  {
+    "id": "guard-husqvarna-901-2",
+    "category": "guard",
+    "brand": "husqvarna",
+    "model": "901",
+    "name": {
+      "zh": "901护杠",
+      "en": "901 Crash Bar",
+      "es": "Defensa 901",
+      "pt": "Protetor 901"
+    },
+    "desc": {
+      "zh": "",
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "image": "images/crash bar-husqvarna-901-2.jpg",
+    "images": [
+      "images/crash bar-husqvarna-901-2.jpg",
+      "images/crash bar-husqvarna-901-2-2.jpg"
+    ]
+  },
+  {
+    "id": "guard-ktm-790adv-2",
+    "category": "guard",
+    "brand": "ktm",
+    "model": "790adv",
+    "name": {
+      "zh": "790ADV护杠",
+      "en": "790ADV Crash Bar",
+      "es": "Defensa 790ADV",
+      "pt": "Protetor 790ADV"
+    },
+    "desc": {
+      "zh": "",
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "image": "images/crash bar-ktm-790adv-2.jpg",
+    "images": [
+      "images/crash bar-ktm-790adv-2.jpg",
+      "images/crash bar-ktm-790adv-2-2.jpg"
+    ]
+  },
+  {
+    "id": "guard-ktm-890adv-2",
+    "category": "guard",
+    "brand": "ktm",
+    "model": "890adv",
+    "name": {
+      "zh": "890ADV护杠",
+      "en": "890ADV Crash Bar",
+      "es": "Defensa 890ADV",
+      "pt": "Protetor 890ADV"
+    },
+    "desc": {
+      "zh": "",
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "image": "images/crash bar-ktm-890adv-2.jpg",
+    "images": [
+      "images/crash bar-ktm-890adv-2.jpg",
+      "images/crash bar-ktm-890adv-2-2.jpg"
+    ]
+  },
+  {
+    "id": "guard-ktm-1190adv-2",
+    "category": "guard",
+    "brand": "ktm",
+    "model": "1190adv",
+    "name": {
+      "zh": "1190ADV护杠",
+      "en": "1190ADV Crash Bar",
+      "es": "Defensa 1190ADV",
+      "pt": "Protetor 1190ADV"
+    },
+    "desc": {
+      "zh": "",
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "image": "images/crash bar-ktm-1190adv-2.jpg",
+    "images": [
+      "images/crash bar-ktm-1190adv-2.jpg",
+      "images/crash bar-ktm-1190adv-2-2.jpg"
+    ]
+  },
+  {
+    "id": "guard-ktm-1290adv-2",
+    "category": "guard",
+    "brand": "ktm",
+    "model": "1290adv",
+    "name": {
+      "zh": "1290ADV护杠",
+      "en": "1290ADV Crash Bar",
+      "es": "Defensa 1290ADV",
+      "pt": "Protetor 1290ADV"
+    },
+    "desc": {
+      "zh": "",
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "image": "images/crash bar-ktm-1290adv-2.jpg",
+    "images": [
+      "images/crash bar-ktm-1290adv-2.jpg",
+      "images/crash bar-ktm-1290adv-2-2.jpg"
+    ]
+  },
+  {
+    "id": "guard-ktm-duke390-2",
+    "category": "guard",
+    "brand": "ktm",
+    "model": "duke390",
+    "name": {
+      "zh": "DUKE390护杠",
+      "en": "DUKE390 Crash Bar",
+      "es": "Defensa DUKE390",
+      "pt": "Protetor DUKE390"
+    },
+    "desc": {
+      "zh": "",
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "image": "images/crash bar-ktm-duke390-2.jpg",
+    "images": [
+      "images/crash bar-ktm-duke390-2.jpg",
+      "images/crash bar-ktm-duke390-2-2.jpg"
+    ]
+  },
+  {
+    "id": "guard-ktm-duke390-3",
+    "category": "guard",
+    "brand": "ktm",
+    "model": "duke390",
+    "name": {
+      "zh": "DUKE390护杠",
+      "en": "DUKE390 Crash Bar",
+      "es": "Defensa DUKE390",
+      "pt": "Protetor DUKE390"
+    },
+    "desc": {
+      "zh": "",
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "image": "images/crash bar-ktm-duke390-3.jpg",
+    "images": [
+      "images/crash bar-ktm-duke390-3.jpg",
+      "images/crash bar-ktm-duke390-3-2.jpg"
+    ]
+  },
+  {
+    "id": "guard-ktm-390adv-2",
+    "category": "guard",
+    "brand": "ktm",
+    "model": "390adv",
+    "name": {
+      "zh": "390ADV护杠",
+      "en": "390ADV Crash Bar",
+      "es": "Defensa 390ADV",
+      "pt": "Protetor 390ADV"
+    },
+    "desc": {
+      "zh": "",
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "image": "images/crash bar-ktm-390adv-2.jpg",
+    "images": [
+      "images/crash bar-ktm-390adv-2.jpg",
+      "images/crash bar-ktm-390adv-2-2.jpg"
+    ]
+  },
+  {
+    "id": "guard-suzuki-dl650-2",
+    "category": "guard",
+    "brand": "suzuki",
+    "model": "dl650",
+    "name": {
+      "zh": "DL650护杠",
+      "en": "DL650 Crash Bar",
+      "es": "Defensa DL650",
+      "pt": "Protetor DL650"
+    },
+    "desc": {
+      "zh": "",
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "image": "images/crash bar-suzuki-dl650-2.jpg",
+    "images": [
+      "images/crash bar-suzuki-dl650-2.jpg",
+      "images/crash bar-suzuki-dl650-2-2.jpg"
+    ]
+  },
+  {
+    "id": "guard-suzuki-vstorm250-2",
+    "category": "guard",
+    "brand": "suzuki",
+    "model": "vstorm250",
+    "name": {
+      "zh": "Vstorm250护杠",
+      "en": "Vstorm250 Crash Bar",
+      "es": "Defensa Vstorm250",
+      "pt": "Protetor Vstorm250"
+    },
+    "desc": {
+      "zh": "",
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "image": "images/crash bar-suzuki-vstorm250-2.jpg",
+    "images": [
+      "images/crash bar-suzuki-vstorm250-2.jpg",
+      "images/crash bar-suzuki-vstorm250-2-2.jpg"
+    ]
+  },
+  {
+    "id": "guard-suzuki-vstorm800-2",
+    "category": "guard",
+    "brand": "suzuki",
+    "model": "vstorm800",
+    "name": {
+      "zh": "Vstorm800护杠",
+      "en": "Vstorm800 Crash Bar",
+      "es": "Defensa Vstorm800",
+      "pt": "Protetor Vstorm800"
+    },
+    "desc": {
+      "zh": "",
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "image": "images/crash bar-suzuki-vstorm800-2.jpg",
+    "images": [
+      "images/crash bar-suzuki-vstorm800-2.jpg",
+      "images/crash bar-suzuki-vstorm800-2-2.jpg"
+    ]
+  },
+  {
+    "id": "guard-yamaha-mt03-2",
+    "category": "guard",
+    "brand": "yamaha",
+    "model": "mt03",
+    "name": {
+      "zh": "MT03护杠",
+      "en": "MT03 Crash Bar",
+      "es": "Defensa MT03",
+      "pt": "Protetor MT03"
+    },
+    "desc": {
+      "zh": "",
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "image": "images/crash bar-yamaha-mt03-2.jpg",
+    "images": [
+      "images/crash bar-yamaha-mt03-2.jpg",
+      "images/crash bar-yamaha-mt03-2-2.jpg"
+    ]
+  },
+  {
+    "id": "guard-yamaha-tenere700-2",
+    "category": "guard",
+    "brand": "yamaha",
+    "model": "tenere700",
+    "name": {
+      "zh": "Tenere700护杠",
+      "en": "Tenere700 Crash Bar",
+      "es": "Defensa Tenere700",
+      "pt": "Protetor Tenere700"
+    },
+    "desc": {
+      "zh": "",
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "image": "images/crash bar-yamaha-tenere700-2.jpg",
+    "images": [
+      "images/crash bar-yamaha-tenere700-2.jpg",
+      "images/crash bar-yamaha-tenere700-2-2.jpg"
+    ]
   }
+
+  
 
 
 

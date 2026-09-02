@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>明振机动车配件 · 摩托车座垫OEM/ODM制造商</title>
+    <title>Mingzhen Automotive Parts · OEM/ODM Manufacturer of Motorcycle Seats</title>
     <meta name="description" content="明振机动车配件成立于1983年，专注摩托车座垫、靠背、护杠、尾架、尾箱、风挡等配件研发与生产，出口全球40余国，ISO9001认证。" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
@@ -80,6 +80,7 @@
             letter-spacing: 0.04em;
             white-space: nowrap;
             flex-shrink: 0;
+            /* 关键：移除硬编码，由JS控制 */
         }
         .logo .tagline {
             font-size: 0.7rem;
@@ -1722,7 +1723,8 @@
         <div class="container">
             <a href="index.html" class="logo">
                 <img src="images/logo.png" alt="明振机动车配件" class="logo-img" />
-                <span class="logo-text">明振配件</span>
+                <!-- ★★★ logo-text 由 JS 控制，移除硬编码 ★★★ -->
+                <span class="logo-text" id="brandNameText">明振配件</span>
                 <span class="tagline">Since 1983</span>
             </a>
             <ul class="nav-menu" id="desktopMenu"></ul>
@@ -1951,6 +1953,11 @@
                 "brand.sym": "SYM",
                 "brand.zontes": "Zontes",
                 "brand.haojue": "Haojue",
+                "brand.cf":"CF",
+                "brand.ktm":"KTM",
+                "brand.bmw":"BMW",
+                "brand.suzuki":"SUZUKI",
+                "brand.husqvarna":"HUSQVARNA",
                 "model.pcx160": "PCX160",
                 "model.adv150": "ADV150",
                 "model.adv160": "ADV160",
@@ -1964,6 +1971,9 @@
                 "model.xadv750": "X ADV750",
                 "model.nc750x": "NC750X",
                 "model.goldwinggl1800": "GOLDWING GL1800",
+                "model.africa twin1100":"AFRICA TWIN1100",
+                "model.cb750":"CB750",
+                "model.transalp750xl":"TRANSALP750XL",
                 "model.nmax155": "Nmax155",
                 "model.xmax300": "Xmax300",
                 "model.aerox155": "Aerox155",
@@ -1971,6 +1981,9 @@
                 "model.y15": "Y15",
                 "model.y16": "Y16",
                 "model.pg1": "PG-1",
+                "model.9gt": "9GT",
+                "model.mt03": "MT03",
+                "model.tenere700": "TENERE700",
                 "model.husky150": "Husky150",
                 "model.x150": "150X",
                 "model.368g": "368G",
@@ -1978,8 +1991,25 @@
                 "model.uhr": "UHR",
                 "model.ufr": "UFR",
                 "model.harley": "Harley",
+                "model.1300gs":"1300GS",
+                "model.f850gs":"F850GS",
+                "model.f850gsadv":"F850GSADV",
+                "model.f900gs":"F900GS",
+                "model.800mt":"800MT",
+                "model.790adv":"790ADV",
+                "model.890adv":"890ADV",
+                "model.1190adv":"1190ADV",
+                "model.1290adv":"1290ADV",
+                "model.duke390":"DUKE390",
+                "model.390adv":"390ADV",
+                "model.dl650":"DL650",
+                "model.vstorm250":"VSTORM250",
+                "model.vstorm800":"VSTORM800",
+                "model.901":"901",
                 "viewDetails": "查看详情",
-                "noImage": "暂无图片"
+                "noImage": "暂无图片",
+                // ★★★ 新增品牌名翻译 ★★★
+                "brandName": "明振配件"
             },
             en: {
                 "hero.tag": "OEM / ODM Manufacturer",
@@ -2033,6 +2063,11 @@
                 "brand.sym": "SYM",
                 "brand.zontes": "Zontes",
                 "brand.haojue": "Haojue",
+                "brand.cf":"CF",
+                "brand.ktm":"KTM",
+                "brand.bmw":"BMW",
+                "brand.suzuki":"SUZUKI",
+                "brand.husqvarna":"HUSQVARNA",
                 "model.pcx160": "PCX160",
                 "model.adv150": "ADV150",
                 "model.adv160": "ADV160",
@@ -2046,6 +2081,9 @@
                 "model.xadv750": "X ADV750",
                 "model.nc750x": "NC750X",
                 "model.goldwinggl1800": "GOLDWING GL1800",
+                "model.africa twin1100":"AFRICA TWIN1100",
+                "model.cb750":"CB750",
+                "model.transalp750xl":"TRANSALP750XL",
                 "model.nmax155": "Nmax155",
                 "model.xmax300": "Xmax300",
                 "model.aerox155": "Aerox155",
@@ -2053,6 +2091,9 @@
                 "model.y15": "Y15",
                 "model.y16": "Y16",
                 "model.pg1": "PG-1",
+                "model.9gt": "9GT",
+                "model.mt03": "MT03",
+                "model.tenere700": "TENERE700",
                 "model.husky150": "Husky150",
                 "model.x150": "150X",
                 "model.368g": "368G",
@@ -2060,8 +2101,24 @@
                 "model.uhr": "UHR",
                 "model.ufr": "UFR",
                 "model.harley": "Harley",
+                "model.1300gs":"1300GS",
+                "model.f850gs":"F850GS",
+                "model.f850gsadv":"F850GSADV",
+                "model.f900gs":"F900GS",
+                "model.800mt":"800MT",
+                "model.790adv":"790ADV",
+                "model.890adv":"890ADV",
+                "model.1190adv":"1190ADV",
+                "model.1290adv":"1290ADV",
+                "model.duke390":"DUKE390",
+                "model.390adv":"390ADV",
+                "model.dl650":"DL650",
+                "model.vstorm250":"VSTORM250",
+                "model.vstorm800":"VSTORM800",
+                "model.901":"901",
                 "viewDetails": "View Details",
-                "noImage": "No Image"
+                "noImage": "No Image",
+                "brandName": "Mingzhen Parts"
             },
             es: {
                 "hero.tag": "Fabricante OEM / ODM",
@@ -2110,11 +2167,16 @@
                 "menu.tail": "Parrillas traseras",
                 "menu.topcase": "Maletas superiores",
                 "menu.windshield": "Parabrisas",
-               "brand.honda": "HONDA",
+                "brand.honda": "HONDA",
                 "brand.yamaha": "YAMAHA",
                 "brand.sym": "SYM",
                 "brand.zontes": "Zontes",
                 "brand.haojue": "Haojue",
+                "brand.cf":"CF",
+                "brand.ktm":"KTM",
+                "brand.bmw":"BMW",
+                "brand.suzuki":"SUZUKI",
+                "brand.husqvarna":"HUSQVARNA",
                 "model.pcx160": "PCX160",
                 "model.adv150": "ADV150",
                 "model.adv160": "ADV160",
@@ -2128,6 +2190,9 @@
                 "model.xadv750": "X ADV750",
                 "model.nc750x": "NC750X",
                 "model.goldwinggl1800": "GOLDWING GL1800",
+                "model.africa twin1100":"AFRICA TWIN1100",
+                "model.cb750":"CB750",
+                "model.transalp750xl":"TRANSALP750XL",
                 "model.nmax155": "Nmax155",
                 "model.xmax300": "Xmax300",
                 "model.aerox155": "Aerox155",
@@ -2135,6 +2200,9 @@
                 "model.y15": "Y15",
                 "model.y16": "Y16",
                 "model.pg1": "PG-1",
+                "model.9gt": "9GT",
+                "model.mt03": "MT03",
+                "model.tenere700": "TENERE700",
                 "model.husky150": "Husky150",
                 "model.x150": "150X",
                 "model.368g": "368G",
@@ -2142,8 +2210,24 @@
                 "model.uhr": "UHR",
                 "model.ufr": "UFR",
                 "model.harley": "Harley",
+                "model.1300gs":"1300GS",
+                "model.f850gs":"F850GS",
+                "model.f850gsadv":"F850GSADV",
+                "model.f900gs":"F900GS",
+                "model.800mt":"800MT",
+                "model.790adv":"790ADV",
+                "model.890adv":"890ADV",
+                "model.1190adv":"1190ADV",
+                "model.1290adv":"1290ADV",
+                "model.duke390":"DUKE390",
+                "model.390adv":"390ADV",
+                "model.dl650":"DL650",
+                "model.vstorm250":"VSTORM250",
+                "model.vstorm800":"VSTORM800",
+                "model.901":"901",
                 "viewDetails": "Ver Detalles",
-                "noImage": "Sin imagen"
+                "noImage": "Sin imagen",
+                "brandName": "Mingzhen Piezas"
             },
             pt: {
                 "hero.tag": "Fabricante OEM / ODM",
@@ -2197,6 +2281,11 @@
                 "brand.sym": "SYM",
                 "brand.zontes": "Zontes",
                 "brand.haojue": "Haojue",
+                "brand.cf":"CF",
+                "brand.ktm":"KTM",
+                "brand.bmw":"BMW",
+                "brand.suzuki":"SUZUKI",
+                "brand.husqvarna":"HUSQVARNA",
                 "model.pcx160": "PCX160",
                 "model.adv150": "ADV150",
                 "model.adv160": "ADV160",
@@ -2210,6 +2299,9 @@
                 "model.xadv750": "X ADV750",
                 "model.nc750x": "NC750X",
                 "model.goldwinggl1800": "GOLDWING GL1800",
+                "model.africa twin1100":"AFRICA TWIN1100",
+                "model.cb750":"CB750",
+                "model.transalp750xl":"TRANSALP750XL",
                 "model.nmax155": "Nmax155",
                 "model.xmax300": "Xmax300",
                 "model.aerox155": "Aerox155",
@@ -2217,6 +2309,9 @@
                 "model.y15": "Y15",
                 "model.y16": "Y16",
                 "model.pg1": "PG-1",
+                "model.9gt": "9GT",
+                "model.mt03": "MT03",
+                "model.tenere700": "TENERE700",
                 "model.husky150": "Husky150",
                 "model.x150": "150X",
                 "model.368g": "368G",
@@ -2224,8 +2319,24 @@
                 "model.uhr": "UHR",
                 "model.ufr": "UFR",
                 "model.harley": "Harley",
+                "model.1300gs":"1300GS",
+                "model.f850gs":"F850GS",
+                "model.f850gsadv":"F850GSADV",
+                "model.f900gs":"F900GS",
+                "model.800mt":"800MT",
+                "model.790adv":"790ADV",
+                "model.890adv":"890ADV",
+                "model.1190adv":"1190ADV",
+                "model.1290adv":"1290ADV",
+                "model.duke390":"DUKE390",
+                "model.390adv":"390ADV",
+                "model.dl650":"DL650",
+                "model.vstorm250":"VSTORM250",
+                "model.vstorm800":"VSTORM800",
+                "model.901":"901",
                 "viewDetails": "Ver Detalhes",
-                "noImage": "Sem imagem"
+                "noImage": "Sem imagem",
+                "brandName": "Mingzhen Peças"
             }
         };
 
@@ -2321,6 +2432,12 @@
         function updateAllTexts() {
             var t = LANG_DATA[currentLang];
             if (!t) return;
+
+            // ★★★ 1. 更新导航栏品牌名 ★★★
+            var brandNameEl = document.getElementById('brandNameText');
+            if (brandNameEl && t.brandName !== undefined) {
+                brandNameEl.textContent = t.brandName;
+            }
 
             // 更新所有 data-i18n 元素
             document.querySelectorAll('[data-i18n]').forEach(function(el) {
@@ -3251,7 +3368,7 @@
             // ★★★ 首次渲染产品 ★★★
             await renderProducts('all');
 
-            // 应用当前语言
+            // 应用当前语言（更新所有文本，包括导航品牌名）
             updateAllTexts();
 
             // 暴露全局
