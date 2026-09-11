@@ -248,9 +248,9 @@
         ]
     },
     {
-        "id": "topcase",
-        "icon": "fa-box",
-        "name": "尾箱",
+        "id": "cnc",
+        "icon": "fa-gear",
+        "name": "CNC配件",
         "brands":  [
             {
                 "id": "honda",
