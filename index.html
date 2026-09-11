@@ -80,7 +80,6 @@
             letter-spacing: 0.04em;
             white-space: nowrap;
             flex-shrink: 0;
-            /* 关键：移除硬编码，由JS控制 */
         }
         .logo .tagline {
             font-size: 0.7rem;
@@ -913,7 +912,7 @@
         }
 
         /* ============================================================
-           产品列表 - ★★★ 核心修复 ★★★
+           产品列表
            ============================================================ */
         .product-grid {
             display: grid !important;
@@ -933,40 +932,37 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            /* ★★★ 固定卡片高度 ★★★ */
             min-height: 340px;
             height: auto;
         }
-        /* ★★★ 固定图片容器 - 正方形 ★★★ */
         .product-grid .product-card .card-img-wrap {
-    width: 240px !important;
-    height: 240px !important;
-    flex-shrink: 0 !important;
-    background: #f5f5f0;
-    border-radius: 6px;
-    overflow: hidden;
-    margin: 0 auto 12px auto;
-    border: 1px solid rgba(0, 0, 0, 0.04);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-.product-grid .product-card .card-img-wrap img {
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: cover !important;
-    display: block;
-    background: #f5f5f0;
-    padding: 4px;
-    flex-shrink: 0 !important;
-}
-.product-grid .product-card .card-img-wrap i {
-    font-size: 3.4rem;
-    color: rgba(0, 0, 0, 0.05);
-    flex-shrink: 0;
-}
-        /* ★★★ 文本固定高度，防止撑开卡片 ★★★ */
+            width: 240px !important;
+            height: 240px !important;
+            flex-shrink: 0 !important;
+            background: #f5f5f0;
+            border-radius: 6px;
+            overflow: hidden;
+            margin: 0 auto 12px auto;
+            border: 1px solid rgba(0, 0, 0, 0.04);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        .product-grid .product-card .card-img-wrap img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            display: block;
+            background: #f5f5f0;
+            padding: 4px;
+            flex-shrink: 0 !important;
+        }
+        .product-grid .product-card .card-img-wrap i {
+            font-size: 3.4rem;
+            color: rgba(0, 0, 0, 0.05);
+            flex-shrink: 0;
+        }
         .product-grid .product-card .name {
             font-size: 1.15rem;
             font-weight: 600;
@@ -1723,7 +1719,6 @@
         <div class="container">
             <a href="index.html" class="logo">
                 <img src="images/logo.png" alt="明振机动车配件" class="logo-img" />
-                <!-- ★★★ logo-text 由 JS 控制，移除硬编码 ★★★ -->
                 <span class="logo-text" id="brandNameText">明振配件</span>
                 <span class="tagline">Since 1983</span>
             </a>
@@ -1855,7 +1850,6 @@
                 <p><i class="fas fa-map-marker-alt" style="color:#c9a84c; width:20px;"></i> <span data-i18n="footer.address">中国 · 广东</span></p>
                 <div class="social-icons">
                     <a href="https://www.facebook.com/profile.php?id=61586069313127" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <!-- <a href="#" target="_blank"><i class="fab fa-twitter"></i></a> -->
                     <a href="https://www.instagram.com/mz_motorparts/" target="_blank"><i class="fab fa-instagram"></i></a>
                     <a href="https://www.youtube.com/@MZ_Motorparts" target="_blank"><i class="fab fa-youtube"></i></a>
                     <a href="https://wa.me/8613620288603" target="_blank"><i class="fab fa-whatsapp"></i></a>
@@ -1894,7 +1888,7 @@
     </div>
 
     <!-- ============================================================
-       JS - 核心逻辑：只渲染一次，切换语言只更新文字
+       JS - 核心逻辑
        ============================================================ -->
     <script>
         // ============================================================
@@ -2008,7 +2002,6 @@
                 "model.901":"901",
                 "viewDetails": "查看详情",
                 "noImage": "暂无图片",
-                // ★★★ 新增品牌名翻译 ★★★
                 "brandName": "明振配件"
             },
             en: {
@@ -2427,19 +2420,17 @@
         }
 
         // ============================================================
-        //  5. ★★★ 核心：只更新文本，不重新渲染DOM ★★★
+        //  5. 更新所有文本（不重新渲染 DOM）
         // ============================================================
         function updateAllTexts() {
             var t = LANG_DATA[currentLang];
             if (!t) return;
 
-            // ★★★ 1. 更新导航栏品牌名 ★★★
             var brandNameEl = document.getElementById('brandNameText');
             if (brandNameEl && t.brandName !== undefined) {
                 brandNameEl.textContent = t.brandName;
             }
 
-            // 更新所有 data-i18n 元素
             document.querySelectorAll('[data-i18n]').forEach(function(el) {
                 var key = el.getAttribute('data-i18n');
                 if (t[key] !== undefined) {
@@ -2453,9 +2444,9 @@
                             el.innerHTML = t[key].replace('{count}', strongHTML);
                         }
                     } else {
-                        var icon = el.querySelector('i');
-                        if (icon) {
-                            el.innerHTML = icon.outerHTML + ' ' + t[key];
+                        var icon2 = el.querySelector('i');
+                        if (icon2) {
+                            el.innerHTML = icon2.outerHTML + ' ' + t[key];
                         } else {
                             el.innerText = t[key];
                         }
@@ -2463,7 +2454,6 @@
                 }
             });
 
-            // 更新搜索框
             var searchInput = document.getElementById('searchInput');
             if (searchInput && t['search.placeholder']) {
                 searchInput.placeholder = t['search.placeholder'];
@@ -2473,18 +2463,13 @@
                 searchBtn.innerText = t['search.btn'];
             }
 
-            // ★★★ 更新产品卡片文本（不重新渲染）★★★
             updateProductCards();
-
-            // 更新统计
             updateStatsText();
-
-            // 更新筛选状态
             updateFilterLabel(currentFilter);
         }
 
         // ============================================================
-        //  6. ★★★ 更新产品卡片文本（不重新渲染DOM）★★★
+        //  6. 更新产品卡片文本（不重新渲染 DOM）
         // ============================================================
         function updateProductCards() {
             var t = LANG_DATA[currentLang];
@@ -2506,21 +2491,18 @@
                 }
                 if (!product) return;
 
-                // 更新名称
                 var nameEl = card.querySelector('.name');
                 if (nameEl) {
                     var newName = getProductName(product);
                     if (newName) nameEl.textContent = newName;
                 }
 
-                // 更新描述
                 var descEl = card.querySelector('.desc');
                 if (descEl) {
                     var newDesc = getProductDesc(product);
                     if (newDesc) descEl.textContent = newDesc;
                 }
 
-                // 更新分类标签
                 var tagEl = card.querySelector('.tag');
                 if (tagEl) {
                     var catLabel = getCategoryLabel(product.category);
@@ -2532,7 +2514,6 @@
                     }
                 }
 
-                // 更新"查看详情"按钮
                 var btnEl = card.querySelector('.btn-outline');
                 if (btnEl) {
                     var viewText = t.viewDetails || '查看详情';
@@ -2545,7 +2526,6 @@
                 }
             });
 
-            // 更新分类标题
             document.querySelectorAll('.category-section').forEach(function(section) {
                 var catKey = section.getAttribute('data-category');
                 if (catKey) {
@@ -2594,7 +2574,7 @@
         }
 
         // ============================================================
-        //  8. 语言切换 - ★★★ 不重新渲染DOM ★★★
+        //  8. 语言切换
         // ============================================================
         function applyLanguage(lang) {
             if (!LANG_DATA[lang]) return;
@@ -2606,13 +2586,8 @@
 
             try { localStorage.setItem('siteLang', lang); } catch (e) {}
 
-            // ★★★ 更新统计数据 ★★★
             renderStats();
-
-            // ★★★ 只更新文本，不重新渲染 ★★★
             updateAllTexts();
-
-            // 更新菜单
             renderMenu();
         }
 
@@ -2638,10 +2613,11 @@
             var homeText = t['nav.home'] || '首页';
             var productsText = t['nav.products'] || '产品中心';
 
+            // ★★★ 关键修复：给"首页"和"产品中心"加上 data-target ★★★
             var html = '';
-            html += '<li><a href="#heroSection" data-i18n="nav.home" class="active"><i class="fas fa-home"></i> ' +
+            html += '<li><a href="#heroSection" data-target="home" data-i18n="nav.home" class="active"><i class="fas fa-home"></i> ' +
                 homeText + '</a></li>';
-            html += '<li><a href="#productsSection" data-i18n="nav.products"><i class="fas fa-th-large"></i> ' +
+            html += '<li><a href="#productsSection" data-target="all" data-i18n="nav.products"><i class="fas fa-th-large"></i> ' +
                 productsText + '</a></li>';
 
             for (var i = 0; i < menuData.length; i++) {
@@ -2716,35 +2692,12 @@
             var desktop = document.getElementById('desktopMenu');
             if (desktop) {
                 desktop.innerHTML = buildMenuHTML(menuData, false);
+
+                // ★★★ 统一事件绑定：所有带 data-target 的链接都走 filterProducts ★★★
                 desktop.querySelectorAll('a[data-target]').forEach(function(link) {
                     link.addEventListener('click', function(e) {
                         e.preventDefault();
-                        var target = this.dataset.target;
-                        if (target) {
-                            filterProducts(target);
-                            document.querySelectorAll('#desktopMenu a, #mobileMenu a').forEach(function(
-                            l) { l.classList.remove('active'); });
-                            this.classList.add('active');
-                            document.getElementById('productsSection').scrollIntoView({ behavior: 'smooth' });
-                        }
-                    });
-                });
-                desktop.querySelectorAll('a[href="#heroSection"]').forEach(function(link) {
-                    link.addEventListener('click', function(e) {
-                        e.preventDefault();
-                        document.getElementById('heroSection').scrollIntoView({ behavior: 'smooth' });
-                        document.querySelectorAll('#desktopMenu a, #mobileMenu a').forEach(function(l) { l
-                            .classList.remove('active'); });
-                        this.classList.add('active');
-                    });
-                });
-                desktop.querySelectorAll('a[href="#productsSection"]').forEach(function(link) {
-                    link.addEventListener('click', function(e) {
-                        e.preventDefault();
-                        document.getElementById('productsSection').scrollIntoView({ behavior: 'smooth' });
-                        document.querySelectorAll('#desktopMenu a, #mobileMenu a').forEach(function(l) { l
-                            .classList.remove('active'); });
-                        this.classList.add('active');
+                        filterProducts(this.dataset.target, this);
                     });
                 });
             }
@@ -2752,9 +2705,12 @@
             var mobile = document.getElementById('mobileMenu');
             if (mobile) {
                 mobile.innerHTML = buildMenuHTML(menuData, true);
+
+                // 二级菜单展开/收起
                 mobile.querySelectorAll('.has-sub').forEach(function(link) {
                     link.addEventListener('click', function(e) {
                         e.preventDefault();
+                        e.stopPropagation();
                         var parentLi = this.closest('li');
                         var sub = parentLi.querySelector('.sub-menu');
                         if (sub) {
@@ -2773,9 +2729,12 @@
                         }
                     });
                 });
+
+                // 三级菜单展开/收起
                 mobile.querySelectorAll('.has-sub-third').forEach(function(link) {
                     link.addEventListener('click', function(e) {
                         e.preventDefault();
+                        e.stopPropagation();
                         var parentLi = this.closest('li');
                         var sub = parentLi.querySelector('.sub-menu-third');
                         if (sub) {
@@ -2790,51 +2749,13 @@
                         }
                     });
                 });
+
+                // ★★★ 叶子节点（真正触发筛选的）★★★
                 mobile.querySelectorAll('a[data-target]').forEach(function(link) {
-                    link.addEventListener('click', function(e) {
-                        var target = this.dataset.target;
-                        if (target && !this.classList.contains('has-sub') && !this.classList.contains(
-                                'has-sub-third')) {
-                            e.preventDefault();
-                            filterProducts(target);
-                            document.querySelectorAll('#desktopMenu a, #mobileMenu a').forEach(function(
-                            l) { l.classList.remove('active'); });
-                            this.classList.add('active');
-                            var hb = document.getElementById('hamburgerBtn');
-                            var mm = document.getElementById('mobileMenu');
-                            if (hb) hb.classList.remove('active');
-                            if (mm) mm.classList.remove('open');
-                            document.body.style.overflow = '';
-                            document.getElementById('productsSection').scrollIntoView({ behavior: 'smooth' });
-                        }
-                    });
-                });
-                mobile.querySelectorAll('a[href="#heroSection"]').forEach(function(link) {
+                    if (link.classList.contains('has-sub') || link.classList.contains('has-sub-third')) return;
                     link.addEventListener('click', function(e) {
                         e.preventDefault();
-                        document.getElementById('heroSection').scrollIntoView({ behavior: 'smooth' });
-                        document.querySelectorAll('#desktopMenu a, #mobileMenu a').forEach(function(l) { l
-                            .classList.remove('active'); });
-                        this.classList.add('active');
-                        var hb = document.getElementById('hamburgerBtn');
-                        var mm = document.getElementById('mobileMenu');
-                        if (hb) hb.classList.remove('active');
-                        if (mm) mm.classList.remove('open');
-                        document.body.style.overflow = '';
-                    });
-                });
-                mobile.querySelectorAll('a[href="#productsSection"]').forEach(function(link) {
-                    link.addEventListener('click', function(e) {
-                        e.preventDefault();
-                        document.getElementById('productsSection').scrollIntoView({ behavior: 'smooth' });
-                        document.querySelectorAll('#desktopMenu a, #mobileMenu a').forEach(function(l) { l
-                            .classList.remove('active'); });
-                        this.classList.add('active');
-                        var hb = document.getElementById('hamburgerBtn');
-                        var mm = document.getElementById('mobileMenu');
-                        if (hb) hb.classList.remove('active');
-                        if (mm) mm.classList.remove('open');
-                        document.body.style.overflow = '';
+                        filterProducts(this.dataset.target, this);
                     });
                 });
             }
@@ -2858,43 +2779,41 @@
         //  10. 数据加载
         // ============================================================
         function loadStats() {
-                var container = document.getElementById('statsGrid');
-                if (!container) return;
-                container.innerHTML =
-                    '<div class="loading-placeholder" style="grid-column:1/-1;"><i class="fas fa-spinner fa-spin"></i><span>加载中...</span></div>';
-                fetch('stats.json?_=' + Date.now())
-                    .then(function (res) { if (!res.ok) throw new Error('HTTP ' + res.status); return res.json(); })
-                    .then(function (items) {
-                        cachedStats = items;
-                        renderStats();
-                    })
-                    .catch(function () {
-                        container.innerHTML =
-                            '<div class="loading-placeholder" style="grid-column:1/-1;"><i class="fas fa-exclamation-triangle"></i><span>加载失败，请刷新</span></div>';
-                    });
-            }
+            var container = document.getElementById('statsGrid');
+            if (!container) return;
+            container.innerHTML =
+                '<div class="loading-placeholder" style="grid-column:1/-1;"><i class="fas fa-spinner fa-spin"></i><span>加载中...</span></div>';
+            fetch('stats.json?_=' + Date.now())
+                .then(function (res) { if (!res.ok) throw new Error('HTTP ' + res.status); return res.json(); })
+                .then(function (items) {
+                    cachedStats = items;
+                    renderStats();
+                })
+                .catch(function () {
+                    container.innerHTML =
+                        '<div class="loading-placeholder" style="grid-column:1/-1;"><i class="fas fa-exclamation-triangle"></i><span>加载失败，请刷新</span></div>';
+                });
+        }
 
-            // ★★★ 新增：渲染统计数据的函数 ★★★
-            function renderStats() {
-                var container = document.getElementById('statsGrid');
-                if (!container || !cachedStats) return;
+        function renderStats() {
+            var container = document.getElementById('statsGrid');
+            if (!container || !cachedStats) return;
 
-                var html = '';
-                for (var i = 0; i < cachedStats.length; i++) {
-                    var s = cachedStats[i];
-                    // 获取当前语言的 label
-                    var label = s.label;
-                    if (label && typeof label === 'object' && !Array.isArray(label)) {
-                        label = label[currentLang] || label['zh'] || '';
-                    }
-                    html += '<div class="stat-item">';
-                    html += '<i class="fas ' + (s.icon || 'fa-circle') + '"></i>';
-                    html += '<div class="number">' + (s.number || '—') + '</div>';
-                    html += '<div class="label">' + (label || '') + '</div>';
-                    html += '</div>';
+            var html = '';
+            for (var i = 0; i < cachedStats.length; i++) {
+                var s = cachedStats[i];
+                var label = s.label;
+                if (label && typeof label === 'object' && !Array.isArray(label)) {
+                    label = label[currentLang] || label['zh'] || '';
                 }
-                container.innerHTML = html;
+                html += '<div class="stat-item">';
+                html += '<i class="fas ' + (s.icon || 'fa-circle') + '"></i>';
+                html += '<div class="number">' + (s.number || '—') + '</div>';
+                html += '<div class="label">' + (label || '') + '</div>';
+                html += '</div>';
             }
+            container.innerHTML = html;
+        }
 
         function loadBrands() {
             var container = document.getElementById('brandsGrid');
@@ -2965,7 +2884,7 @@
         }
 
         // ============================================================
-        //  11. 产品 - ★★★ 首次渲染，之后不再重新渲染 ★★★
+        //  11. 产品
         // ============================================================
         async function getProducts() {
             if (cachedProducts !== null && cachedProducts.length > 0) return cachedProducts;
@@ -2981,15 +2900,68 @@
             }
         }
 
-        function filterProducts(filter) {
-            currentFilter = filter;
-            if (filter !== 'all') {
-                document.getElementById('searchInput').value = '';
-                currentSearchTerm = '';
-                document.getElementById('searchClear').classList.remove('show');
+        // ============================================================
+        //  ★★★ 核心修复：filterProducts 统一处理"重置 + 渲染 + 高亮 + 滚动 + 关菜单" ★★★
+        // ============================================================
+        function filterProducts(filter, sourceElement) {
+            // 特殊处理：home → 只滚动到顶部，但也要重置筛选
+            if (filter === 'home') {
+                resetFilterState();
+                renderProducts('all');
+                document.querySelectorAll('#desktopMenu a, #mobileMenu a').forEach(function(l) {
+                    l.classList.remove('active');
+                });
+                if (sourceElement) sourceElement.classList.add('active');
+                closeMobileMenu();
+                document.getElementById('heroSection').scrollIntoView({ behavior: 'smooth' });
+                return;
             }
-            // ★★★ 重新渲染产品（只有切换筛选时才重新渲染）★★★
+
+            // 1. 同步筛选状态
+            currentFilter = filter;
+
+            // 2. 清空搜索
+            currentSearchTerm = '';
+            var si = document.getElementById('searchInput');
+            if (si) si.value = '';
+            var sc = document.getElementById('searchClear');
+            if (sc) sc.classList.remove('show');
+
+            // 3. 渲染
             renderProducts(filter);
+
+            // 4. 菜单高亮
+            document.querySelectorAll('#desktopMenu a, #mobileMenu a').forEach(function(l) {
+                l.classList.remove('active');
+            });
+            if (sourceElement) sourceElement.classList.add('active');
+
+            // 5. 滚动到产品区
+            document.getElementById('productsSection').scrollIntoView({ behavior: 'smooth' });
+
+            // 6. 关闭移动端菜单
+            closeMobileMenu();
+        }
+
+        // 只重置状态，不渲染
+        function resetFilterState() {
+            currentFilter = 'all';
+            currentSearchTerm = '';
+            var si = document.getElementById('searchInput');
+            if (si) si.value = '';
+            var sc = document.getElementById('searchClear');
+            if (sc) sc.classList.remove('show');
+        }
+
+        // 关闭移动端菜单
+        function closeMobileMenu() {
+            var hb = document.getElementById('hamburgerBtn');
+            var mm = document.getElementById('mobileMenu');
+            if (hb && mm && mm.classList.contains('open')) {
+                hb.classList.remove('active');
+                mm.classList.remove('open');
+                document.body.style.overflow = '';
+            }
         }
 
         async function renderProducts(filter) {
@@ -3088,13 +3060,11 @@
 
             container.innerHTML = html;
 
-            // 更新统计
             var countEl = document.getElementById('productTotalCount');
             if (countEl) countEl.textContent = visibleCount;
             updateStatsText(visibleCount);
             updateFilterLabel(filter);
 
-            // 绑定详情按钮
             document.querySelectorAll('.detail-btn').forEach(function(btn) {
                 btn.addEventListener('click', function() {
                     var id = this.dataset.id;
@@ -3267,21 +3237,6 @@
                 document.body.style.overflow = mobileMenu.classList.contains('open') ? 'hidden' : '';
             });
 
-            mobileMenu.addEventListener('click', function(e) {
-                var target = e.target.closest('a');
-                if (target && target.getAttribute('href') && target.getAttribute('href') !== '#') {
-                    hamburger.classList.remove('active');
-                    mobileMenu.classList.remove('open');
-                    document.body.style.overflow = '';
-                }
-                if (target && target.dataset.target && !target.classList.contains('has-sub') && !target.classList
-                    .contains('has-sub-third')) {
-                    hamburger.classList.remove('active');
-                    mobileMenu.classList.remove('open');
-                    document.body.style.overflow = '';
-                }
-            });
-
             document.addEventListener('click', function(e) {
                 if (mobileMenu.classList.contains('open') &&
                     !mobileMenu.contains(e.target) &&
@@ -3365,13 +3320,10 @@
             loadCerts();
             loadHeroVideo();
 
-            // ★★★ 首次渲染产品 ★★★
             await renderProducts('all');
 
-            // 应用当前语言（更新所有文本，包括导航品牌名）
             updateAllTexts();
 
-            // 暴露全局
             window.filterProducts = filterProducts;
             window.getProducts = getProducts;
             window.applyLanguage = applyLanguage;
