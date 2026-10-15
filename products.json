@@ -955,25 +955,7 @@
       "images/seat-honda-pcx160-15-2-2.jpg"
     ]
   },
-  {
-    "id": "seat-honda-pcx160-16",
-    "category": "seat",
-    "brand": "honda",
-    "model": "pcx160",
-    "name": {
-      "zh": "PCX160座垫",
-      "en": "PCX160 Motorcycle Seat",
-      "es": "Asiento de motocicleta PCX160",
-      "pt": "Banco de motocicleta PCX160"
-    },
-    "desc": {"zh": "", "en": "", "es": "", "pt": ""},
-    "image": "images/seat-honda-pcx160-16.jpg",
-    "images": [
-      "images/seat-honda-pcx160-16.jpg",
-      "images/seat-honda-pcx160-16-2.jpg",
-      "images/seat-honda-pcx160-16-2-2.jpg"
-    ]
-  },
+ 
   {
     "id": "seat-honda-pcx160-17",
     "category": "seat",

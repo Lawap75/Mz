@@ -2784,6 +2784,7 @@
             for (var i = 0; i < menuData.length; i++) {
                 var cat = menuData[i];
                 var catId = cat.id;
+                if (catId === 'windshield') continue;
                 var menuKey = 'menu.' + catId;
                 var catName = t[menuKey] || cat.name || catId;
 
