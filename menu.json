@@ -7,7 +7,7 @@
             {
                 "id": "honda",
                 "name": "HONDA",
-                "models": ["pcx160", "adv150","adv160", "adv350", "forza350", "click150","click160","vario150","vario160", "cg125","xadv750","nc750x","goldwinggl1800","africa twin1100","cb750","transalp750xl"]
+                "models": ["pcx160", "adv150","adv160", "adv350", "forza350", "click150","click160","vario150","vario160", "cg125","xadv750","nc750x","goldwinggl1800","africa twin1100","cb750","transalp750xl", "CT125", "GB350", "CM500", "CM300", "CB400SF", "CM1100", "CL250", "CBR1000 RR-R", "NX400", "NX500", "CB1000F", "CBR250 RR", "CUB CC110", "GIORNO 125", "CB650R"]
             },
             {
                 "id": "yamaha",
@@ -17,12 +17,12 @@
             {
                 "id": "sym",
                 "name": "SYM",
-                "models": ["husky150"]
+                "models": ["husky150","adxtg400","cruise150"]
             },
             {
                 "id": "zontes",
                 "name": "Zontes",
-                "models": ["150x","350E","368G"]
+                "models": ["150x","350e","368g","350d"]
             },
             {
                 "id": "haojue",
@@ -32,12 +32,12 @@
              {
                 "id": "harley",
                 "name": "Harley",
-                "models": []
+                "models": ["touring","softail","dyna","sporster"]
             },
             {
                 "id":"bmw",
                 "name":"BMW",
-                "models":["1300gs","f850gs","f850gsadv","f900gs"]
+                "models":["1300gs","f850gs","f850gsadv","f900gs","r1200gsadv", "r1300gs", "r18", "s1000-rr"]
             },
             {
                 "id":"cf",
@@ -47,17 +47,22 @@
             {
                 "id":"ktm",
                 "name":"KTM",
-                "models":["790adv","890adv","1190adv","1290adv","duke390","390adv"]
+                "models":["790adv","890adv","1190adv","1290adv","duke390","390adv","duke790","1290superduke"]
             },
             {
                 "id":"suzuki",
                 "name":"SUZUKI",
-                "models":["dl650","vstorm250","vstorm800"]
+                "models":["dl650","vstorm250","vstorm800","dl250","vstrom250sx","uy125"]
             },
             {
                 "id":"husqvarna",
                 "name":"HUSQVARNA",
                 "models":["901"]
+            },
+            {
+                "id":"kawasaki",
+                "name":"KAWASAKI",
+                "models":["z900rs","z500","zx4r","z900","versys650","zx6r","ninja1000sx","vulcansen650","eliminator500","ninja500"]
             }
         ]
     },
